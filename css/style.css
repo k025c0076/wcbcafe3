@@ -190,6 +190,29 @@ img {
         margin-bottom: 1rem;
     }
 
+    /* MENU */
+    .cover-menu {
+        background-image: url(../images/cover-menu-l.webp);
+    }
+    .grid {
+        gap: 3rem 2rem;
+        grid-tenolate-columns: repeat(3,1fr);
+    }
+    .item img {
+        margin-bottom: 1rem;
+    }
+    .item p {
+        font-size: 1rem;
+    }
+    .item-big {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    .item-big img {
+        height: 94.5%;
+        width: 100%;
+    }
+
     /* フッター　*/
     .page-footer {
         background-image: url(../images/footer-l.webp);
@@ -300,4 +323,18 @@ img {
 ------------------------------- */
 .cover-menu {
     background-image: url(../images/cover-menu-s.webp);
+}
+.grid {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.item img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.item p {
+    font-size: .875rem;
 }
