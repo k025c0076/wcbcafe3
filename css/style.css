@@ -196,7 +196,7 @@ img {
     }
     .grid {
         gap: 3rem 2rem;
-        grid-tenolate-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
     .item img {
         margin-bottom: 1rem;
